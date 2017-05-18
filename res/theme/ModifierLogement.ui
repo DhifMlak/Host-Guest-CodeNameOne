@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="ModifierLogement" cloudDestinationProperty="ModifierLogement" >
+  <component type="TextField" name="TfTitre" cloudBoundProperty="text" cloudDestinationProperty="TfTitre" text="" >
+  </component>
+  <component type="TextField" name="Tfadresse" cloudBoundProperty="text" cloudDestinationProperty="Tfadresse" text="" hint="adresse" >
+  </component>
+  <component type="TextField" name="TfVille" cloudBoundProperty="text" cloudDestinationProperty="TfVille" text="" hint="ville" >
+  </component>
+  <component type="TextField" name="TfPays" cloudBoundProperty="text" cloudDestinationProperty="TfPays" text="TextField2" hint="pays" >
+  </component>
+  <component type="TextField" name="TfPrix" cloudBoundProperty="text" cloudDestinationProperty="TfPrix" scrollVisible="false" text="" hint="Prix" >
+  </component>
+  <component type="TextField" name="TfType" cloudBoundProperty="text" cloudDestinationProperty="TfType" text="" hint="Type" >
+  </component>
+  <component type="Button" name="BtnModifier" cloudDestinationProperty="BtnAjouter" text="Modifier" >
+  </component>
+</component>

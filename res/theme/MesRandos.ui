@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="MesRandos" cloudDestinationProperty="MesRandos" layout="BoxLayout" boxLayoutAxis="Y" >
+  <component type="TextField" name="txtfind" cloudBoundProperty="text" cloudDestinationProperty="txtfind" text="" hint="Recherche par ville" >
+  </component>
+  <component type="Container" name="ctnMesRandos" cloudDestinationProperty="ctnMesRandos" layout="BoxLayout" boxLayoutAxis="Y" >
+  </component>
+</component>

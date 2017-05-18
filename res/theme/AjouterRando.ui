@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="AjouterRando" cloudDestinationProperty="AjouterRando" >
+  <component type="Container" name="Container" cloudDestinationProperty="Container" layout="BoxLayout" boxLayoutAxis="Y" >
+  </component>
+  <component type="TextField" name="txtTitre" cloudBoundProperty="text" cloudDestinationProperty="TextField" text="" hint="Titre" >
+  </component>
+  <component type="TextField" name="txtLieu" cloudBoundProperty="text" cloudDestinationProperty="TextField1" focusable="false" text="" hint="Lieu" >
+  </component>
+  <component type="TextField" name="txtLieuRencontre" cloudBoundProperty="text" cloudDestinationProperty="txtLieuRencontre" text="" hint="Lieu de Rencontre" >
+  </component>
+  <component type="TextField" name="txtPrix" cloudBoundProperty="text" cloudDestinationProperty="txtPrix" text="" constraint="2" hint="Prix" >
+  </component>
+  <component type="TextArea" name="txtDesc" cloudBoundProperty="text" cloudDestinationProperty="txtDesc" text="" maxSize="256" hint="Description" columns="20" rows="4" >
+  </component>
+  <component type="TimeSpinner" name="HeureRencontreSpinner" cloudDestinationProperty="Heure" >
+  </component>
+  <component type="NumericSpinner" name="nbMaxSpinner" cloudDestinationProperty="NumericSpinner" >
+  </component>
+  <component type="Button" name="btnAjouter" cloudDestinationProperty="btnAjouter" text="Ajouter" >
+  </component>
+</component>

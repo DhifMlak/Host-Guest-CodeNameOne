@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="Home" cloudDestinationProperty="Home" scrollableY="false" layout="BorderLayout" borderLayoutAbsoluteCenter="false" title="les Offres" >
+  <component type="Tabs" name="Tabs1" cloudDestinationProperty="Tabs1" >
+    <layoutConstraint value="Center" />
+    <custom name="titles" type="java.lang.String" array="true" dimensions="1" >
+      <str>Sortie</str>
+      <str>Randonn&#xe9;e</str>
+      <str>Logement</str>
+    </custom>
+    <component type="Container" name="ctnSortie" tabTitle="Sortie" cloudDestinationProperty="Container2" scrollableY="true" layout="BoxLayout" boxLayoutAxis="Y" >
+    </component>
+    <component type="Container" name="ctnRando" tabTitle="Randonn&#xe9;e" cloudDestinationProperty="Container1" scrollableY="true" layout="BoxLayout" boxLayoutAxis="Y" >
+      <component type="TextField" name="txtfind" cloudBoundProperty="text" cloudDestinationProperty="TextField" text="" hint="Chercher Par Lieu" >
+      </component>
+      <component type="Container" name="ctnRandoList" cloudDestinationProperty="ctnRandoList" layout="BoxLayout" boxLayoutAxis="Y" >
+      </component>
+    </component>
+    <component type="Container" name="ctnLogement1" tabTitle="Logement" cloudDestinationProperty="Container" scrollableY="true" layout="BoxLayout" boxLayoutAxis="Y" >
+      <component type="TextArea" name="TextArea" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="Label" text="Liste des Logements" editable="false" >
+      </component>
+    </component>
+  </component>
+</component>

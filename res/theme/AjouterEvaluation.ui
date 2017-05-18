@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="AjouterEvaluation" cloudDestinationProperty="AjouterEvaluation" layout="BoxLayout" boxLayoutAxis="Y" >
+  <component type="Container" name="Container6" cloudDestinationProperty="Container6" >
+    <component type="TextField" name="txtTitre" cloudBoundProperty="text" cloudDestinationProperty="txtTitre" text="" hint="Titre" >
+    </component>
+  </component>
+  <component type="Container" name="Container5" cloudDestinationProperty="Container5" >
+    <component type="TextField" name="txtCom" cloudBoundProperty="text" cloudDestinationProperty="txtCom" text="" hint="Commentaire" >
+    </component>
+  </component>
+  <component type="Container" name="Container4" cloudDestinationProperty="Container4" >
+    <component type="TextField" name="txtFac" cloudBoundProperty="text" cloudDestinationProperty="txtFac" text="" hint="Note Facility /5" >
+    </component>
+  </component>
+  <component type="Container" name="Container3" cloudDestinationProperty="Container3" >
+    <component type="TextField" name="txtSer" cloudBoundProperty="text" cloudDestinationProperty="txtSer" text="" hint="Note Service /5" >
+    </component>
+  </component>
+  <component type="Container" name="Container2" cloudDestinationProperty="Container2" >
+    <component type="TextField" name="txtInter" cloudBoundProperty="text" cloudDestinationProperty="txtInter" text="" hint="Note Interesting /5" >
+    </component>
+  </component>
+  <component type="Container" name="Container1" cloudDestinationProperty="Container1" >
+    <component type="TextField" name="txtHum" cloudBoundProperty="text" cloudDestinationProperty="txtHum" text="" hint="Note Human /5" >
+    </component>
+  </component>
+</component>
